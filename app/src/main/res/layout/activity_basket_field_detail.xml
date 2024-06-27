@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".BasketFieldDetail">
+
+    <ImageView
+        android:id="@+id/imgFutsalDetail"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/basket_field"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lapangan Kang Mudryk"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="10dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Description"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="10dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lapangan futsal Kang Mudryk adalah sebuah lapangan futsal yang modern  dan nyaman, terletak di tengah kota yang mudah diakses oleh pengunjung.  Lapangan ini memiliki permukaan lapangan yang halus dan bersih, serta  dilengkapi dengan lampu sorot yang terang sehingga cocok untuk bermain  futsal di malam hari."
+        android:textSize="16dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lokasi"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="10dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jalan Pasar Kaliki, No 900"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        />
+
+    <Button
+        android:id="@+id/bookNow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Book Now"
+        android:backgroundTint="@color/green"
+        />
+</LinearLayout>

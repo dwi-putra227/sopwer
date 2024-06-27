@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CreateTeam">
+
+    <EditText
+        android:id="@+id/nameTeam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Team Name"
+        android:inputType="text" />
+
+
+    <EditText
+        android:id="@+id/locationTeam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Location"
+        android:inputType="text" />
+
+
+    <EditText
+        android:id="@+id/descriptionTeam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Description"
+        />
+
+
+    <RadioGroup
+        android:id="@+id/jenisOlahragaGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Choose your sport"
+            android:layout_marginTop="30dp"
+            />
+
+        <RadioButton
+            android:id="@+id/futsalRadioBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Futsal" />
+
+        <RadioButton
+            android:id="@+id/basketballRadioBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Basketball" />
+
+
+        <RadioButton
+            android:id="@+id/volleyballRadioBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Volleyball"/>
+
+        <RadioButton
+            android:id="@+id/badmintonRadioBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Badminton"/>
+
+    </RadioGroup>
+
+
+    <Button
+        android:id="@+id/create_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Team"
+        android:backgroundTint="@color/green"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+
+        />
+
+</LinearLayout>

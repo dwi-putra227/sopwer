@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/home_24"
+        android:title="Home"
+        />
+
+    <item
+        android:id="@+id/matchmaking"
+        android:icon="@drawable/baseline_handshake_24"
+        android:title="Matchmaking"/>
+
+    <item
+        android:id="@+id/trophy"
+        android:icon="@drawable/trophy"
+        android:title="Tournament"/>
+
+    <item
+        android:id="@+id/field"
+        android:icon="@drawable/field"
+        android:title="Booking"/>
+
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/baseline_account_circle_24"
+        android:title="Profile"/>
+</menu>
