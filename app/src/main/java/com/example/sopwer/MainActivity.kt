@@ -31,6 +31,14 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
             finish()
         }
+
+        binding.checkBoxShowPassword.setOnClickListener {
+            if (binding.checkBoxShowPassword.isChecked) {
+                binding.editTextPassword.inputType = 128 // show password
+            } else {
+                binding.editTextPassword.inputType = 129 // hide password
+            }
+        }
     }
 
     private fun loginDatabase(username: String, password: String){

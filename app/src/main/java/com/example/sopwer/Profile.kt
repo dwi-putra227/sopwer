@@ -45,6 +45,12 @@ class Profile : Fragment() {
             val intent = Intent(activity, CreateTeam::class.java)
             startActivity(intent)
         }
+
+        val logoutButton = view.findViewById<Button>(R.id.logoutButton)
+        logoutButton.setOnClickListener {
+            val intent = Intent(activity, MainActivity::class.java)
+            startActivity(intent)
+        }
         return view
     }
 }

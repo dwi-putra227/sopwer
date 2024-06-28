@@ -33,6 +33,14 @@ class RegisterPage : AppCompatActivity() {
             startActivity(intent)
             finish()
         }
+
+        binding.checkBoxShowPassword.setOnClickListener {
+            if (binding.checkBoxShowPassword.isChecked) {
+                binding.passwordRegister.inputType = 128 // show password
+            } else {
+                binding.passwordRegister.inputType = 129 // hide password
+            }
+        }
     }
 
     private fun registerDatabase(username: String, password: String){
