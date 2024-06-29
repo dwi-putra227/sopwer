@@ -5,15 +5,23 @@
     android:layout_height="match_parent"
     tools:context=".Matchmaking">
 
-    <androidx.recyclerview.widget.RecyclerView
+    <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Matchmaking"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginBottom="150dp"
+        />
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="10dp"
         android:layout_gravity="center">
 
         <TextView
@@ -51,7 +59,7 @@
             android:backgroundTint="@color/green"
             android:textColor="@color/white"
             android:gravity="center"
-            android:text="Matching"
+            android:text="Match Now"
             />
 
     </LinearLayout>

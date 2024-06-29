@@ -4,6 +4,7 @@ import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
@@ -13,6 +14,7 @@ class TourAdapter(private val tour: List<TourData>): RecyclerView.Adapter<TourAd
         val tourName: TextView = itemView.findViewById(R.id.nameTour)
         val dateTour: TextView = itemView.findViewById(R.id.tglTour)
         val locationTour: TextView = itemView.findViewById(R.id.lokTour)
+        val prizeTour: TextView = itemView.findViewById(R.id.prizePool)
         val contact: TextView = itemView.findViewById(R.id.kontakTour)
     }
 
@@ -30,6 +32,7 @@ class TourAdapter(private val tour: List<TourData>): RecyclerView.Adapter<TourAd
         holder.tourName.text = tour.name
         holder.dateTour.text = tour.placeDate
         holder.locationTour.text = tour.location
+        holder.prizeTour.text = tour.prize
         holder.contact.text = tour.contact
 
         holder.itemView.setOnClickListener {

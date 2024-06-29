@@ -10,7 +10,7 @@
     <ImageView
         android:id="@+id/imgFutsalDetail"
         android:layout_width="match_parent"
-        android:layout_height="250dp"
+        android:layout_height="150dp"
         android:scaleType="centerCrop"
         android:src="@drawable/basket_field"
         />
@@ -19,6 +19,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Lapangan Kang Mudryk"
+        android:textColor="@color/black"
         android:textSize="30dp"
         android:textStyle="bold"
         android:layout_marginTop="12dp"
@@ -28,7 +29,8 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Description"
+        android:text="Deskripsi"
+        android:textColor="@color/black"
         android:textSize="24dp"
         android:textStyle="bold"
         android:layout_marginTop="12dp"
@@ -39,7 +41,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Lapangan futsal Kang Mudryk adalah sebuah lapangan futsal yang modern  dan nyaman, terletak di tengah kota yang mudah diakses oleh pengunjung.  Lapangan ini memiliki permukaan lapangan yang halus dan bersih, serta  dilengkapi dengan lampu sorot yang terang sehingga cocok untuk bermain  futsal di malam hari."
-        android:textSize="16dp"
+        android:textSize="14dp"
         android:layout_marginStart="10dp"
         android:layout_marginTop="5dp"
         />
@@ -49,6 +51,7 @@
         android:layout_height="wrap_content"
         android:text="Lokasi"
         android:textSize="24dp"
+        android:textColor="@color/black"
         android:textStyle="bold"
         android:layout_marginTop="12dp"
         android:layout_marginStart="10dp"
@@ -58,6 +61,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Jalan Pasar Kaliki, No 900"
+        android:textSize="14dp"
         android:layout_marginStart="10dp"
         android:layout_marginTop="5dp"
         />
@@ -65,7 +69,40 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="Harga"
+        android:textColor="@color/black"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="12dp"
+        />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="RP 60000"
+        android:textSize="14dp"
+        android:layout_marginStart="10dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nomor Kontak"
+        android:textColor="@color/black"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="10dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="081234567890"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="10dp"
         />
 
     <Button

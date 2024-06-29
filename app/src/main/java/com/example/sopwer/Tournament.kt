@@ -26,12 +26,12 @@ class Tournament : Fragment() {
         recyclerView.layoutManager = layoutManager
 
         val tour = listOf<TourData>(
-            TourData("Tournament Kerbau Cup", "2023-02-20", "Jakarta", "081234567890"),
-            TourData("Fifa Kabupaten Cup", "2023-03-15, Bandung", "Bandung", "081234567890"),
-            TourData("BWF Bojongsoang Championships", "2023-02-20, Jakarta", "Jakarta", "081234567890"),
-            TourData("Tour 2", "2023-03-15, Bandung", "Bandung", "081234567890"),
-            TourData("Tour 1", "2023-02-20, Jakarta", "Jakarta", "081234567890"),
-            TourData("Tour 2", "2023-03-15, Bandung", "Bandung", "081234567890")
+            TourData(R.drawable.tour,"Tournament Kerbau Cup", "2023-02-20", "Jakarta", "2600000","081234567890"),
+            TourData(R.drawable.tour,"Fifa Kabupaten Cup", "2023-03-15", "Bandung", "1600000","081234567235"),
+            TourData(R.drawable.tour,"BWF Bojongsoang Championships", "2023-02-20", "Jakarta","2000000", "081234527890"),
+            TourData(R.drawable.tour,"Ace Camphionship", "2023-03-15", "Bandung", "10000000","081234567231"),
+            TourData(R.drawable.tour,"League 1", "2023-02-20", "Jakarta", "2200000","081234135135"),
+            TourData(R.drawable.tour,"Shot One Tournament", "2024-03-15", "Bandung", "6000000","0812345135890")
         )
 
         recyclerView.addItemDecoration(SpaceItemDecoration(8))

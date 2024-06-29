@@ -10,13 +10,16 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
         android:layout_marginTop="40dp"
         >
+
         <TextView
             android:id="@+id/nameTour"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Nama Tournament"
+            android:textStyle="bold"
             />
 
         <TextView
@@ -31,6 +34,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Lokasi"
+            />
+
+        <TextView
+            android:id="@+id/prizePool"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Prize Pool"
             />
 
         <TextView

@@ -55,14 +55,6 @@
 
     </FrameLayout>
 
-        <SearchView
-            android:id="@+id/idSV"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="8dp"
-            android:iconifiedByDefault="false"
-            android:padding="4dp"
-            android:queryHint="Pilih Olahraga" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
